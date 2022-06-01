@@ -1,5 +1,17 @@
-h1 {
-  color: darkviolet;
+html{
+  box-sizing border-box
+display block
+font-family sans-serif
+height 785px
+line-height 18.4px
+text-size-adjust 100%
+width 1425px
+-webkit-locale "en"
+-webkit-tap-highlight-color rgba(0, 0, 0, 0)
+}
+
+1 {
+  color: red;
 }
 
 h2 {
