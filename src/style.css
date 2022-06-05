@@ -23,7 +23,7 @@ li {
   border-radius: 5px;
 }
 
-.temperature {
+#temperature {
   padding-left: 15px;
   font-size: 35px;
   line-height: 60px;
@@ -45,7 +45,7 @@ li {
   margin-top: 10px;
 }
 
-.location {
+#city {
   display: block;
   font-size: x-large;
   color: #202124;

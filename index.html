@@ -10,6 +10,7 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -24,22 +25,21 @@
                 alt="partly-cloudy"
               />
               <div>
-                <strong class="temperature"> 22</strong
+                <strong id="temperature"></strong
                 ><span class="units">℃ ⎮℉</span>
               </div>
             </div>
             <div class="col-3" class="categories">
               <ul class="categories1">
-                <li>Precipitation:0%</li>
-                <li>Humidity:30%</li>
-                <li>Wind:23km/h</li>
+                <li>Humidity:<span id="humidity"></span>%</li>
+                <li>Wind:<span id="wind"></span>km/h</li>
               </ul>
             </div>
             <div class="col-4 offset-md-3">
               <ul>
-                <li><strong class="location"> Mississauga</strong></li>
+                <li><strong id="city"></strong></li>
                 <li>Saturday</li>
-                <li>Partly cloudy</li>
+                <li id="description"></li>
               </ul>
             </div>
           </div>
