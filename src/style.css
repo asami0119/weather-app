@@ -34,6 +34,15 @@ li {
   position: relative;
   top: -15px;
 }
+.active {
+  color: #212529;
+  cursor: default;
+}
+
+#celsius,
+#fahrenheit {
+  text-decoration: none;
+}
 
 .categories {
   padding-top: 50px;
