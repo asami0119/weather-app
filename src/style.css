@@ -59,3 +59,25 @@ li {
   font-size: x-large;
   color: #202124;
 }
+
+.weather-forcast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forcast img {
+  padding: 0;
+  height: 60px;
+  width: 60px;
+}
+
+.weather-forcast-date {
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.weather-forcast-temerature-min {
+  opacity: 0.6;
+  font-size: 15px;
+}
